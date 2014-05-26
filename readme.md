@@ -17,3 +17,9 @@
 ### 作業方針
 
 ラフ終了などの各時点で Pull-Request を挟み、小レビューを設けます。
+
+### psdiff
+
+本プロジェクトは psdiff を用いて psd ファイルから png ファイルを commit 時に自動生成し、psd ファイルの diff を見やすくしています。
+
+[filp/psdiff](https://github.com/filp/psdiff)
