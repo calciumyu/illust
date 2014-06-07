@@ -18,8 +18,7 @@
 
 ラフ終了などの各時点で Pull-Request を挟み、小レビューを設けます。
 
-### psdiff
+### psd と GitHub
 
-本プロジェクトは psdiff を用いて psd ファイルから png ファイルを commit 時に自動生成し、psd ファイルの diff を見やすくしています。
-
-[filp/psdiff](https://github.com/filp/psdiff)
+本リポジトリでは [filp/psdiff](https://github.com/filp/psdiff) を用いて pdf の diff を生成し可視化していましたが, [GitHub が psd の diff 生成に対応した](https://github.com/blog/1845-psd-viewing-diffing)ため, 利用を取りやめています.
+GitHub の psd の diff 生成はまだ時間がかかり, 複数の psd の変更がある場合即座に見られませんが, 今後の進歩に期待しましょう.
